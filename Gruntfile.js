@@ -32,6 +32,8 @@ module.exports = function(grunt) {
     swagular: {
       default_options: {
         options: {
+			"server": "http://petstore.swagger.wordnik.com",
+			"path": "/api/api-docs"
         },
         files: {
           'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
